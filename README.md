@@ -4,27 +4,27 @@
 
 ---
 
-## Business Problem
+## Problem
 
 A bank needed to identify which customers were likely to subscribe to a term deposit following a marketing campaign while maximizing campaign profitability rather than focusing solely on prediction accuracy.
 
 ---
 
-## Project Approach
+## Approach
 
-- Prepared and cleaned customer marketing campaign data
-- Applied one-hot encoding for categorical variables
+- Prepared and cleaned marketing campaign data
+- Applied one-hot encoding to categorical variables
 - Performed train/test splitting for model evaluation
-- Compared:
+- Built and compared:
   - AdaBoost
   - Decision Tree
   - Random Forest
-- Tuned Random Forest using 5-fold GridSearchCV
+- Tuned the Random Forest model using 5-fold GridSearchCV
 - Evaluated models using a custom marketing profit value function
 
 ---
 
-## Results & Business Impact
+## Results
 
 The tuned Random Forest generated:
 
@@ -34,17 +34,16 @@ The tuned Random Forest generated:
 - 317% improvement over AdaBoost
 - 143% improvement over Decision Tree
 
-This project demonstrates how machine learning model selection and hyperparameter tuning can directly improve business decision-making and campaign profitability.
+This project demonstrates how machine learning model selection and hyperparameter tuning can directly improve campaign profitability and business decision-making.
 
 ---
 
 ## Repository Structure
 
 ```text
-data/        -> datasets used for analysis
-images/      -> project visuals and charts
-notebooks/   -> Jupyter notebooks and modeling workflows
-reports/     -> exported reports and final outputs
+bank_data.csv                         -> marketing campaign dataset
+notebooks/                            -> Jupyter notebook workflows
+reports/                              -> exported HTML/PDF outputs
 ```
 
 ---
@@ -54,7 +53,7 @@ reports/     -> exported reports and final outputs
 | File | Description |
 |------|-------------|
 | `notebooks/bank_marketing_prediction.ipynb` | Full machine learning workflow and analysis |
-| `reports/` | Final exported outputs and reports |
+| `reports/bank_marketing_prediction.html` | Rendered HTML version of the project |
 
 ---
 
