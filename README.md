@@ -1,20 +1,67 @@
 # Bank Marketing Campaign Prediction & Profit Optimization
 
-**Tools:** Python · scikit-learn · AdaBoost · Random Forest · Decision Tree · GridSearchCV
+**Tools:** Python · scikit-learn · AdaBoost · Random Forest · Decision Tree · GridSearchCV · Pandas · Matplotlib
 
 ---
 
-## Problem
+## Business Problem
 
-A bank needed to identify which customers were likely to subscribe to a term deposit following a marketing campaign, maximizing campaign profitability rather than just prediction accuracy.
+A financial institution needed to identify which customers were most likely to subscribe to a term deposit campaign while maximizing overall marketing profitability rather than focusing solely on prediction accuracy.
 
-## Approach
+---
 
-Compared AdaBoost, Decision Tree, and a tuned Random Forest using a custom value function optimized for marketing profit. Applied one-hot encoding, train/test splitting, and 5-fold GridSearchCV on the Random Forest.
+## Project Approach
 
-## Impact
+- Cleaned and prepared customer marketing campaign data
+- Applied one-hot encoding to categorical variables
+- Performed train/test splitting for model evaluation
+- Built and compared:
+  - AdaBoost
+  - Decision Tree
+  - Random Forest
+- Tuned the Random Forest model using 5-fold GridSearchCV
+- Evaluated model performance using a custom marketing profit value function
 
-The tuned Random Forest generated $57,190 in predicted marketing profit, outperforming AdaBoost by 317% and the Decision Tree by 143%, directly demonstrating the business value of model selection and tuning.
+---
+
+## Results & Business Impact
+
+The tuned Random Forest model generated:
+
+# $57,190 Predicted Marketing Profit
+
+### Performance Improvements
+- 317% improvement over AdaBoost
+- 143% improvement over Decision Tree
+
+This project demonstrates how machine learning model selection and hyperparameter tuning can directly improve business decision-making and campaign profitability.
+
+---
+
+## Project Visuals
+
+### Marketing Profit Performance
+
+Comparison of machine learning model profitability across campaign prediction scenarios.
+
+![Marketing Profit Comparison](images/model-profit-comparison.png)
+
+### Key Predictive Features
+
+Visualization of the most influential variables impacting customer subscription predictions.
+
+![Feature Importance Analysis](images/feature-importance.png)
+
+---
+
+## Repository Structure
+
+```text
+data/        -> datasets used for analysis
+images/      -> charts and project visuals
+notebooks/   -> Jupyter notebooks and modeling workflows
+reports/     -> exported reports and final outputs
+```
 
 ---
 
@@ -22,9 +69,14 @@ The tuned Random Forest generated $57,190 in predicted marketing profit, outperf
 
 | File | Description |
 |------|-------------|
-| `bank_marketing_prediction.ipynb` | Jupyter notebook with full analysis |
-| `bank_marketing_prediction.html` | Rendered HTML version |
+| `notebooks/bank_marketing_prediction.ipynb` | Full machine learning workflow and analysis |
+| `reports/bank_marketing_prediction.pdf` | Exported project report |
+| `images/` | Model visuals and performance charts |
 
 ---
 
-*Part of my data & analytics portfolio — [cameronbatts.github.io](https://cameronbatts.github.io)*
+## Portfolio
+
+Portfolio Website: https://cameronbatts.github.io/
+
+GitHub Profile: https://github.com/cameronbatts
