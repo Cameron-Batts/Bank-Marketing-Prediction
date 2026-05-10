@@ -62,22 +62,4 @@ reports/     -> exported reports and final outputs
 
 Portfolio Website: https://cameronbatts.github.io/
 
-GitHub Profile: https://github.com/cameronbatts```
-
----
-
-## Files
-
-| File | Description |
-|------|-------------|
-| `notebooks/bank_marketing_prediction.ipynb` | Full machine learning workflow and analysis |
-| `reports/bank_marketing_prediction.pdf` | Exported project report |
-| `images/` | Model visuals and performance charts |
-
----
-
-## Portfolio
-
-Portfolio Website: https://cameronbatts.github.io/
-
 GitHub Profile: https://github.com/cameronbatts
