@@ -59,6 +59,6 @@ reports/                              -> exported HTML/PDF outputs
 
 ## Portfolio
 
-Portfolio Website: https://cameronbatts.github.io/
+Portfolio Website: https://cameron-batts.github.io/
 
-GitHub Profile: https://github.com/cameronbatts
+GitHub Profile: https://github.com/cameron-batts
