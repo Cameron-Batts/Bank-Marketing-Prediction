@@ -1,0 +1,72 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "elapsed_seconds": 319.77705907821655,
+  "train_rows": 33908,
+  "test_rows": 11303,
+  "best_parameters": {
+    "max_depth": 5,
+    "n_estimators": 200
+  },
+  "best_cv_score": 7.151096153054153,
+  "models": [
+    {
+      "model": "AdaBoost",
+      "tn": 9800,
+      "fp": 150,
+      "fn": 1201,
+      "tp": 152,
+      "accuracy": 0.880474210386623,
+      "precision": 0.5033112582781457,
+      "recall": 0.1123429416112343,
+      "value_per_customer": -0.7431655312748837,
+      "campaign_payoff_eur": 13700,
+      "matches_historical_campaign_payoff": true
+    },
+    {
+      "model": "Decision tree",
+      "tn": 8770,
+      "fp": 1180,
+      "fn": 995,
+      "tp": 358,
+      "accuracy": 0.8075732106520392,
+      "precision": 0.23276983094928477,
+      "recall": 0.2645971914264597,
+      "value_per_customer": 1.0793594620897098,
+      "campaign_payoff_eur": 24000,
+      "matches_historical_campaign_payoff": false
+    },
+    {
+      "model": "Tuned random forest",
+      "tn": 6589,
+      "fp": 3361,
+      "fn": 445,
+      "tp": 908,
+      "accuracy": 0.6632752366628328,
+      "precision": 0.21269618177559146,
+      "recall": 0.6711012564671102,
+      "value_per_customer": 6.952136600902416,
+      "campaign_payoff_eur": 57190,
+      "matches_historical_campaign_payoff": true
+    }
+  ],
+  "dataset_sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+  "validation_date": "2026-10-22",
+  "execution_method": "All notebook code cells executed sequentially in a fresh Python namespace; stdout/stderr captured. No Jupyter kernel was used.",
+  "historical_campaign_payoff_eur": {
+    "AdaBoost": 13700,
+    "Decision tree": 23510,
+    "Tuned random forest": 57190
+  },
+  "historical_value_per_customer": {
+    "AdaBoost": -0.7431655312748837,
+    "Decision tree": 0.9926568167743075,
+    "Tuned random forest": 6.952136600902416
+  },
+  "historical_best_parameters": {
+    "max_depth": 5,
+    "n_estimators": 200
+  }
+}
