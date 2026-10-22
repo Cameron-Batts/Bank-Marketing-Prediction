@@ -41,9 +41,9 @@ This project demonstrates how machine learning model selection and hyperparamete
 ## Repository Structure
 
 ```text
-bank_data.csv                         -> marketing campaign dataset
-notebooks/                            -> Jupyter notebook workflows
-reports/                              -> exported HTML/PDF outputs
+Data/bank_data.csv                    -> marketing campaign dataset
+Notebooks/                            -> Jupyter notebook workflows
+Reports/                              -> exported PDF output
 ```
 
 ---
@@ -52,8 +52,8 @@ reports/                              -> exported HTML/PDF outputs
 
 | File | Description |
 |------|-------------|
-| `notebooks/bank_marketing_prediction.ipynb` | Full machine learning workflow and analysis |
-| `reports/bank_marketing_prediction.html` | Rendered HTML version of the project |
+| `Notebooks/bank_marketing_prediction.ipynb` | Full machine learning workflow and analysis |
+| `Reports/bank_marketing_prediction.pdf` | Exported PDF project report |
 
 ---
 
